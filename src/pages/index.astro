@@ -1,0 +1,74 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base>
+  <main class="max-w-3xl mx-auto px-6 py-12 space-y-12">
+    
+    <!-- Hero Section -->
+    <section>
+      <h1 class="text-4xl font-bold text-gray-900 mb-2">Eric Harris</h1>
+      <p class="text-lg text-gray-700">
+        Backend Engineer with 20+ years of experience — now focused on scalable systems using Go and PostgreSQL. I love building tools that are fast, clean, and extensible.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-12 border-t border-gray-200">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">Featured Projects</h2>
+      <div class="space-y-6">
+
+        <!-- DiceRealms -->
+        <div class="p-6 border border-gray-200 rounded-lg hover:shadow-lg transition-shadow">
+          <h3 class="text-xl font-bold text-gray-800">DiceRealms (2025)</h3>
+          <p class="text-gray-700 mt-1">
+            A multiplayer, text-based roleplaying platform inspired by classic MUDs and Dungeons & Dragons. Built with Go and focused on modular MCP-based server logic.
+          </p>
+          <p class="mt-1 text-sm text-gray-600">Stack: Go, MCP, ANSI, Concurrency</p>
+          <a href="https://github.com/ericktheredd5875/DiceRealms" class="text-blue-600 hover:underline text-sm mt-2 inline-block">View on GitHub</a>
+        </div>
+
+        <!-- SnapCrumb -->
+        <div class="p-6 border border-gray-200 rounded-lg hover:shadow-lg transition-shadow">
+          <h3 class="text-xl font-bold text-gray-800">SnapCrumb (2024)</h3>
+          <p class="text-gray-700 mt-1">
+            A high-performance URL shortener built in Go with Chi and PostgreSQL. Features middleware, IP tracking, and an extensible data model for analytics.
+          </p>
+          <p class="mt-1 text-sm text-gray-600">Stack: Go, PostgreSQL, Chi, Docker</p>
+          <a href="https://github.com/ericktheredd5875/SnapCrumb" class="text-blue-600 hover:underline text-sm mt-2 inline-block">View on GitHub</a>
+        </div>
+
+        <!-- Rocket CMS -->
+        <div class="p-6 border border-gray-200 rounded-lg hover:shadow-lg transition-shadow">
+          <h3 class="text-xl font-bold text-gray-800">Rocket CMS</h3>
+          <p class="text-gray-700 mt-1">
+            A modular PHP CMS used by hundreds of real estate and tourism clients nationwide. Designed with reusable components, secure API layers, and multi-tenant support.
+          </p>
+          <p class="mt-1 text-sm text-gray-600">Stack: PHP, MySQL, MVC, REST APIs</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="py-12 border-t border-gray-200">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">Skills & Tech</h2>
+      <p class="text-gray-700">
+        Go · PHP · PostgreSQL · Redis · Docker · REST APIs · MVC · Linux · AWS · Git · TailwindCSS · Infrastructure Automation
+      </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-12 border-t border-gray-200">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">Get in Touch</h2>
+      <p class="text-gray-700">
+        I'm open to backend, platform, or infrastructure engineering roles. Feel free to connect!
+      </p>
+      <ul class="mt-2 text-blue-600 space-y-1">
+        <li><a href="mailto:ericktheredd5875@gmail.com" class="hover:underline">ericktheredd5875@gmail.com</a></li>
+        <li><a href="https://github.com/ericktheredd5875" class="hover:underline">github.com/ericktheredd5875</a></li>
+      </ul>
+    </section>
+
+  </main>
+</Base>
