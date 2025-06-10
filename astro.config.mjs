@@ -3,7 +3,7 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   integrations: [],
   output: 'static',
-  base: '/ericharris-portfolio',
+  base: './',
   build: {
     assets: '_astro',
   },
